@@ -1,0 +1,89 @@
+.{
+    margin:0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+h1{
+text-align: center;
+font-family:'Great Vibes', cursive;
+font-size: 6em;
+color: #836ede;
+}
+h2{
+text-align: center;
+font-family: 'Great Vibes', cursive;
+font-size: 3em;
+color: #fefefe;
+}
+p{ 
+text-align: center;
+color: #effdfd;
+font-family: "Princess Sofia", cursive;
+font-size: 2em;
+}
+ul{
+list-style-type:none
+}
+li{
+
+margin-right: 40px;
+margin-bottom: 5px;
+padding: 5px;
+text-align: center;
+list-style-type:none;
+color: #effdfd;
+/*background-color: #4ac1c5c4;*/
+background-color: #4a98c5c4;
+}
+li:hover{
+color: #ffffff;
+background-color:#5279b7;
+transition:3s;
+}
+body{
+max-width: 600px;
+margin: 0 auto;
+/*background-image:url("ancoras.gif");
+background-repeat: repeat;
+background-attachment: fixed;
+background-position: center;*/
+background: -webkit-linear-gradient(top, #631f9b 1%,#1e5799 39%,#20a7c9 62%,#d57be5 100%); /* Chrome10-25,Safari5.1-6 */
+padding: 2em; 
+border: 5px solid #fffdfd80;
+font-family: "Raleway";
+border-radius: 20px;
+}
+#quiz{
+color:#b8d6d6;
+margin: 10px;
+border-radius: 15px;
+/*border: 1px solid #ffffff;
+background-color: #28a58da6;*/
+-webkit-box-shadow: 10px 5px 20px rgba(86, 82, 82, 0.77);
+-moz-box-shadow:   10px 5px 20px rgba(86, 82, 82, 0.77);
+box-shadow: 10px 5px 20px rgba(86, 82, 82, 0.77);
+padding: 20px;
+} 
+a{
+text-decoration: none;
+color:#e0dbdb;;
+}
+
+.button{
+    text-align: center;
+    margin: 20px;
+    background-color: #bd79ef75;
+    border-radius: 15px;
+    padding: 0.3em;
+  
+}
+.button a:hover{ 
+    color: #be46dc;
+
+}
+.button:hover{ 
+    background-color:#ffffff61;
+    color: #eec2f9;
+
+}
